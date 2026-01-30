@@ -53,21 +53,19 @@
   <h2>Message Us</h2>
 
 <section class="message-page">
-  <div class="message-card">
+  <div class="message-wrapper">
+  <form class="message-form">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <input type="text" placeholder="Phone Number">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
 
-    <form id="contactForm">
-      <input id="name" placeholder="Your Name" required>
-      <input id="email" type="email" placeholder="Your Email" required>
-      <input id="phone" placeholder="Phone Number" required>
-      <textarea id="userMessage" placeholder="Your Message" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-
-    <div id="result" class="result-box">
-      <p>Message result will appear here.</p>
-    </div>
-
+  <div class="message-result">
+    Message result will appear here.
   </div>
+</div>
 </section>
 
 <footer>
@@ -78,6 +76,7 @@
 <script src="script js.js"></script>
 </body>
 </html>
+
 
 
 
